@@ -12,7 +12,7 @@ class RedViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        tabBarItem.badgeValue = "D"
+        tabBarItem.badgeValue = "!"
     }
 
     override func viewDidDisappear(_ animated: Bool) {
