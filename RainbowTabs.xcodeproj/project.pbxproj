@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		FAB25A3F278FB82200A909A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB25A3E278FB82200A909A1 /* AppDelegate.swift */; };
 		FAB25A41278FB82200A909A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB25A40278FB82200A909A1 /* SceneDelegate.swift */; };
-		FAB25A43278FB82200A909A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB25A42278FB82200A909A1 /* ViewController.swift */; };
+		FAB25A43278FB82200A909A1 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB25A42278FB82200A909A1 /* RedViewController.swift */; };
 		FAB25A46278FB82200A909A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB25A44278FB82200A909A1 /* Main.storyboard */; };
 		FAB25A48278FB82300A909A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB25A47278FB82300A909A1 /* Assets.xcassets */; };
 		FAB25A4B278FB82300A909A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB25A49278FB82300A909A1 /* LaunchScreen.storyboard */; };
+		FAB25A53278FC57500A909A1 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB25A52278FC57500A909A1 /* OrangeViewController.swift */; };
+		FAB25A55278FC5A600A909A1 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB25A54278FC5A600A909A1 /* YellowViewController.swift */; };
+		FAB25A57278FC5CF00A909A1 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB25A56278FC5CF00A909A1 /* GreenViewController.swift */; };
+		FAB25A59278FC5E800A909A1 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB25A58278FC5E800A909A1 /* BlueViewController.swift */; };
+		FAB25A5B278FC62100A909A1 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB25A5A278FC62100A909A1 /* PurpleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAB25A3B278FB82200A909A1 /* RainbowTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB25A3E278FB82200A909A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAB25A40278FB82200A909A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAB25A42278FB82200A909A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAB25A42278FB82200A909A1 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		FAB25A45278FB82200A909A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAB25A47278FB82300A909A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB25A4A278FB82300A909A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAB25A4C278FB82300A909A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB25A52278FC57500A909A1 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		FAB25A54278FC5A600A909A1 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		FAB25A56278FC5CF00A909A1 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		FAB25A58278FC5E800A909A1 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		FAB25A5A278FC62100A909A1 /* PurpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				FAB25A3E278FB82200A909A1 /* AppDelegate.swift */,
 				FAB25A40278FB82200A909A1 /* SceneDelegate.swift */,
-				FAB25A42278FB82200A909A1 /* ViewController.swift */,
+				FAB25A42278FB82200A909A1 /* RedViewController.swift */,
 				FAB25A44278FB82200A909A1 /* Main.storyboard */,
+				FAB25A54278FC5A600A909A1 /* YellowViewController.swift */,
+				FAB25A52278FC57500A909A1 /* OrangeViewController.swift */,
 				FAB25A47278FB82300A909A1 /* Assets.xcassets */,
 				FAB25A49278FB82300A909A1 /* LaunchScreen.storyboard */,
 				FAB25A4C278FB82300A909A1 /* Info.plist */,
+				FAB25A56278FC5CF00A909A1 /* GreenViewController.swift */,
+				FAB25A58278FC5E800A909A1 /* BlueViewController.swift */,
+				FAB25A5A278FC62100A909A1 /* PurpleViewController.swift */,
 			);
 			path = RainbowTabs;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB25A43278FB82200A909A1 /* ViewController.swift in Sources */,
+				FAB25A57278FC5CF00A909A1 /* GreenViewController.swift in Sources */,
+				FAB25A53278FC57500A909A1 /* OrangeViewController.swift in Sources */,
+				FAB25A43278FB82200A909A1 /* RedViewController.swift in Sources */,
 				FAB25A3F278FB82200A909A1 /* AppDelegate.swift in Sources */,
+				FAB25A5B278FC62100A909A1 /* PurpleViewController.swift in Sources */,
 				FAB25A41278FB82200A909A1 /* SceneDelegate.swift in Sources */,
+				FAB25A55278FC5A600A909A1 /* YellowViewController.swift in Sources */,
+				FAB25A59278FC5E800A909A1 /* BlueViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

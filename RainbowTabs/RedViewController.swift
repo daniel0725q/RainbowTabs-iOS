@@ -7,13 +7,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RedViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        tabBarItem.badgeValue = "D"
     }
 
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        tabBarItem.badgeValue = nil
+    }
 
 }
 
